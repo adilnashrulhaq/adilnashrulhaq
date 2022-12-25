@@ -1,2 +1,0 @@
-# adilnashrulhaq.github.io
-haloooo
