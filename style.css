@@ -96,7 +96,7 @@ body {
   }
   
   .fotogw {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
   }
@@ -115,6 +115,7 @@ body {
   }
 
   .bgcol{
+    position: absolute;
     width: 320px;
     right: 0px;
   }
