@@ -1,0 +1,22 @@
+.sex2 {
+  position: relative;
+  height: 1183px;
+  left: 0px;
+  top: 695px;
+  background: #1a201e;
+}
+
+.bungkus2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
+  background-color: thistle;
+  position: absolute;
+  width: 1080px;
+  height: 983px;
+  left: 143px;
+  top: 100px;
+}

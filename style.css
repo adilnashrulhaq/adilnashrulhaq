@@ -1,0 +1,90 @@
+.fotogw {
+  position: absolute;
+  z-index: 2;
+  height: 607px;
+  width: 510px;
+  bottom: 0px;
+  right: 208px;
+}
+
+.bgcol {
+  position: absolute;
+  background-color: #66a68f;
+  width: 320px;
+  height: 695px;
+  right: 282px;
+}
+
+.sex {
+  height: 695xpx;
+  display: flex;
+}
+
+body {
+  background-color: #1d2220;
+}
+.headline {
+  z-index: 3;
+  position: absolute;
+  left: 143px;
+  top: 154px;
+  font-family: "Fugaz One", cursive;
+}
+.namagw {
+  font-family: "Fugaz One", normal;
+  font-size: 72px;
+  color: white;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+}
+.bungkus {
+  position: absolute;
+  bottom: 80px;
+  left: 143px;
+}
+.garis {
+  /* position: absolute; */
+  width: 5px;
+  height: 40px;
+  top: 506px;
+  background: #66a68f;
+}
+.by {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.work {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #868686;
+}
+.kantor {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #4ebe96;
+}
+.deskripsi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #868686;
+}
+* {
+  font-family: Poppins;
+  margin: 0px;
+  padding: 0px;
+}
