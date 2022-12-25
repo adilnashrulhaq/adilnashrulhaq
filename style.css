@@ -3,7 +3,8 @@
   z-index: 2;
   height: 607px;
   width: 510px;
-  bottom: 0px;
+  /* bottom: 0px; */
+  top: 88px;
   right: 208px;
 }
 
@@ -87,4 +88,34 @@ body {
   font-family: Poppins;
   margin: 0px;
   padding: 0px;
+}
+
+@media only screen and (max-width: 360px) {
+  .sex{
+    height: 1032px;
+  }
+  
+  .fotogw {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .headline{
+    left: 30px;
+  }
+
+  .deskripsi{
+    font-size: 14px;
+  }
+
+  .namagw {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .bgcol{
+    width: 320px;
+    right: 0px;
+  }
 }
