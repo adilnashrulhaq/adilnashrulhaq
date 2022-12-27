@@ -1,19 +1,10 @@
 .fotogw {
   position: absolute;
-  z-index: 2;
-  height: 607px;
-  width: 510px;
-  /* bottom: 0px; */
-  top: 88px;
-  right: 208px;
 }
 
 .bgcol {
   position: absolute;
   background-color: #66a68f;
-  width: 320px;
-  height: 695px;
-  right: 282px;
 }
 
 .sex {
@@ -33,21 +24,14 @@ body {
 }
 .namagw {
   font-family: "Fugaz One", normal;
-  font-size: 72px;
   color: white;
-  font-weight: 400;
-  font-size: 80px;
-  line-height: 88px;
 }
 .bungkus {
   position: absolute;
-  bottom: 80px;
-  left: 143px;
 }
 .garis {
   /* position: absolute; */
   width: 5px;
-  height: 40px;
   top: 506px;
   background: #66a68f;
 }
@@ -55,23 +39,19 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 150%;
   color: #ffffff;
 }
+
 .work {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
   line-height: 150%;
-  color: #868686;
 }
 .kantor {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
   line-height: 150%;
   text-decoration-line: underline;
   color: #4ebe96;
@@ -79,44 +59,122 @@ body {
 .deskripsi {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  color: #868686;
 }
 * {
   font-family: Poppins;
   margin: 0px;
   padding: 0px;
 }
-
-@media only screen and (max-width: 1080px) {
-  .sex{
-    height: 2340px;
+[class*="sex"] {
+  width: 100%;
+}
+/* screen hp */
+@media only screen and (min-width: 360px) {
+  .sex {
+    width: 100%;
+    height: 100%;
   }
-  
-  .fotogw {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  .headline {
+    left: 30px;
+    top: 100px;
   }
-
-  .headline{
+  .namagw {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    left: 4%;
+  }
+  .deskripsi {
+    font-size: 13px;
+    color: white;
+    padding-top: 8px;
+  }
+  .bungkus {
+    top: 280px;
     left: 30px;
   }
-
-  .deskripsi{
-    font-size: 14px;
+  .garis {
+    height: 24px;
   }
+  .by {
+    font-size: 12px;
+  }
+  .work {
+    font-size: xx-small;
+    color: aliceblue;
+    font-weight: lighter;
+  }
+  .kantor {
+    font-size: x-small;
+  }
+  .fotogw {
+    z-index: -1;
+    width: 94%;
+    height: auto;
+    bottom: 4%;
+    left: 3%;
+  }
+  .bgcol {
+    z-index: -1;
+    width: 232px;
+    height: 100%;
+    right: 18%;
+  }
+}
 
+/* screen laptop */
+@media only screen and (min-width: 768px) {
+  .sex {
+    height: 695xpx;
+    display: flex;
+  }
+  .headline {
+    left: 143px;
+    top: 154px;
+    z-index: 3;
+  }
   .namagw {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 72px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
   }
-
-  .bgcol{
+  .deskripsi {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #868686;
+  }
+  .fotogw {
     position: absolute;
+    z-index: 2;
+    height: 607px;
+    width: 510px;
+    /* bottom: 10px; */
+    top: 88px;
+    left: 640px;
+  }
+  .bgcol {
     width: 320px;
-    right: 0px;
+    height: 695px;
+    right: 282px;
+  }
+  .bungkus {
+    top: 490px;
+    left: 143px;
+  }
+  .garis {
+    height: 40px;
+  }
+  .by {
+    font-size: 16px;
+  }
+  .work {
+    font-weight: 400;
+    font-size: 12px;
+    color: #868686;
+  }
+  .kantor {
+    font-size: 12px;
   }
 }
