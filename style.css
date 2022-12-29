@@ -64,18 +64,28 @@
   margin-bottom: 0;
 }
 .judulh2 {
-  margin-top: 0;
   margin-bottom: 2rem;
   font-family: "Fugaz One";
   font-style: normal;
   color: #ffffff;
 }
 .pnumber {
+  margin-bottom: -10px;
   font-family: "Poppins";
+  /* font-style: italic; */
+  font-size: medium;
+  color: #ffffff;
 }
-.pjudul {
+.judulh5 {
   font-family: "Poppins";
   font-style: normal;
   /* font-size: 20px; */
   color: #ffffff;
+}
+.ptahun {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: small;
+  color: #ffffff;
+  margin-bottom: -10px;
 }
