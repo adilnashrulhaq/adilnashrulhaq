@@ -2,57 +2,116 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Adil Nashrulhaq</title>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="exp.css">
-    <link rel="stylesheet" href="sex2.css">
+    <link rel="stylesheet" href="assep/">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fugaz+One">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-    <nav class="nav">
-        <a href=""><img src="assep/Logo.png" alt=""></a>
-        <p class="menu">About</p>
-        <p class="menu">Portfolio</p>
-    </nav>
-
-    <Section class="sex">
-        <div class="headline">
-            <h1 class="namagw">Muhammad<br> Adil Nashrulhaq,</h1>
-            <p class="deskripsi">Kendari born, Depok based Freshgraduate
-                <br>Junior UI/UX Designer & Web Programmer
-                <br>with less then 1 years experience.
-            </p>
-        </div>
-        <div class="bungkus">
-            <div class="garis"></div>
-            <p class="by">BY HARDWORK AND <br> DETERMINATION</p>
-            <p class="work">I'm currently <br> Product Designer <br> at <a class="kantor" href="https://google.com"
-                    target="_blank">No Where</a></p>
-        </div>
-        <div class="bgcol"></div>
-        <img class="fotogw" src="assep/bgprofil.png" alt="">
-        <div class="exp">
-            <div><img src="assep/education.png" alt=""><br> Education</div>
-            <div><img src="assep/work.png" alt=""><br> Work Experience</div>
-            <div><img src="assep/CV.png" alt=""><br> Curriculum Vitae</div>
-        </div>
-    </Section>
-
-    <section class="sex2">
-        <div class="bungkus2">
-            <div>
-                <p class="p1">I've worked in</p>
-                <h1 class="h1">Newest Amazing <br>Experience</h1>
+<body style="background-color: #1D2220;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assep/Logo.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" style="padding-right: 5rem;">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
             </div>
-            <div></div>
         </div>
-    </section>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Section 1 -->
+    <div class="container" style="padding-top: 3rem;">
+        <div class="row justify-content-around">
+            <div class="col-md-6">
+                <h1 class="namagw" style="margin-left: 8px;">Muhammad<br>Adil Nashrulhaq,</h1>
+                <p class="deskripsi" style="margin-left: 8px;">Kendari born, Depok based
+                    <br> Freshgraduate & Junior UI/UX Designer
+                    <br> with less then 1 years experience.
+                </p>
+                <div class="garis" style="margin-top: 3rem; margin-left: 8px; width: 5rem;"></div>
+                <p class="by" style="margin-left: 8px;">BY HARDWORK AND <br> DETERMINATION</p>
+                <p class="work" style="margin-left: 8px;">I'm currently <br> Product Designer <br> at <a class="kantor"
+                        href="https://google.com" target="_blank">No Where</a></p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img alt="" src="assep/bg-profil3.svg" />
+            </div>
+        </div>
+    </div>
+    <!-- akhir section 1 -->
+
+    <!-- Section 2 -->
+    <div class="container-fluid" style="background-color: #1A201E; padding: 2rem 2rem;">
+        <div class="container mt-2 text-center">
+            <div class="row">
+                <div class="col-sm-4 exp">
+                    <div style="margin-top: 1rem; margin-bottom: 1rem;"><img src="assep/education.png" alt=""><br>
+                        Education</div>
+                </div>
+                <div class="col-sm-4 exp">
+                    <div style="margin-top: 1rem; margin-bottom: 1rem;"><img src="assep/work.png" alt=""><br> Work
+                        Experience</div>
+                </div>
+                <div class="col-sm-4 exp">
+                    <div style="margin-top: 1rem; margin-bottom: 1rem;"><img src="assep/CV.png" alt=""><br> Curriculum
+                        Vitae</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir section 2 -->
+
+    <!-- Section 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" style="margin-top: 2rem;">
+                <p class="pkecil">I've worked in</p>
+                <div class="col judulh2">
+                    <h2>Newest Amazing Experience</h2>
+                </div>
+                <div class="col pjudul">
+                    <h5>PT. Absolut Data Indonesia -
+                        <br>Intern UI/UX Designer
+                    </h5>
+                </div>
+            </div>
+            <div class="col-sm-6 text-end" style="margin-top: 2rem;">
+                <p class="pkecil">Formal Experience</p>
+                <div class="col judulh2">
+                    <h2>Education</h2>
+                </div>
+                <div class="col pjudul">
+                    <h5>STT Terpadu Nurul Fikri -
+                        <br>Informatics Engineering
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-dark">
+
+
+        </div>
+    </div>
+    <!-- Akhir Section 3 -->
 
 
 </body>
