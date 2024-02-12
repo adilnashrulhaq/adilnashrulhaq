@@ -1117,6 +1117,32 @@ section {
   background: #37b3ed;
 }
 
+.contact .title {
+  margin-right: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: fit-content;
+}
+
+.contact .title a {
+  color: #343a40;
+  align-items: center;
+  display: flex;
+}
+
+.contact .title a:hover {
+  color: #149ddd;
+}
+
+.contact .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #149ddd;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
